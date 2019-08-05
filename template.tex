@@ -1,0 +1,211 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+\textbf{Industry Knowledge:}
+
+Full-Stack Web Development,\newline
+Backend Engineering,\newline
+Software Development.
+
+\textbf{Tools & Technologies:}
+
+HTML5,
+Microsoft Office,
+C++,
+Python (Programming Language),
+java,
+Cascading Style Sheets (CSS),
+WordPress,
+Linux,
+Bash,
+Django,
+React.js,
+JavaScript,
+C (Programming Language),
+Amazon Web Services (AWS).
+
+\textbf{Interpersonal Skills:}
+
+Communication,
+Management.
+
+\textbf{Other Skills :}
+
+Web Scraping,
+REST API's,
+DevOps, \newline
+Competitive Programming,
+Full-Stack Development.
+}
+
+
+
+% Projects text
+\education{
+\textbf{Bachelor of Engineering} (GPA: 7.7) \\
+Birla Institute of Technology \\
+2016 - 2020 | Mesra,India
+
+\textbf{XII} (Percentile: 93.5) \\
+Dr. Virendra Swarup Public School \\
+2014 - 2016 | Kanpur, India
+
+\textbf{X} (Percentile: 93.5) \\
+Dr. Virendra Swarup Public School \\
+2004 - 2014 | Kanpur, India
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{ANUJ KAPOOR} % Your name
+\cvjobtitle{ } % Job
+% title/career
+
+\cvlinkedin{/in/anuj-kapoor-642387158/}
+\cvgithub{Bearbobs}
+\cvnumberphone{+91 7779845048} % Phone number
+\cvmail{kapoor.anuj0@gmail.com} % Email address
+\cvsite{angel.co/anuj-kapoor-0070} % Personal website
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+ 
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{Mar. 2019 -}
+		{Present}
+        {Freelance Developer \& Writer}
+        {\href{https://itsfoss.com}{It's FOSS}}
+        {}
+        {\begin{itemize}
+        \item Part-Time writer and Full-stack web developer for their linux blog.
+        \item Projects: Linux Distro Chooser
+        
+    \item TechStack: Django,React,MySql,GitHub
+    
+    \item Website: https://itsfoss.com
+    
+        
+        \end{itemize}}
+        \\
+	\twentyitem
+    	{Apr. 2019 -}
+		{Jun. 2019}
+        {Lead Backend Developer \& Cloud Service Manager}
+        {\href{https://terra.tealindia.in}{Terra Economics}}
+        {}
+        {
+        {\begin{itemize}
+        \item  Developed the backend for building an end to end decision support platform for land and property in India for banks, housing finance companies. I had to plan and implement the Api's and various user authentication aspects for the platform.
+        
+        \item TechStack:React, Django, PostgreSQL/MongoDB -Apache Solr for DB Indexing.
+        \newline
+        
+        \item Managed the deployment of the Platform on Amazon Web Service.
+        
+        \item TechStack:Amazon Ec2,AWS ElasticBeanStalk,Route53,AWS Relational Database Service
+        
+        \item Website: https://terra.tealindia.in
+    
+    \end{itemize}}
+        }
+    \\   
+    \twentyitem
+   		{Dec 2018 -}
+		{Jan. 2019}
+        {Full-Stack Developer}
+        {\href{https://inbrid.com/}{Inbrid}}
+        {}
+        {
+        {\begin{itemize}
+        \item  lead Full-stack development of their e-commerce website and manage the same.
+        
+        \item TechStack:WordPress and it's Different Plugins.
+        
+        \item Website: https://inbrid.com/
+    \end{itemize}}
+        }
+    
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 RESEARCH
+%----------------------------------------------------------------------------------------
+\section{Volunteer Experience}
+\begin{twenty}
+	\twentyitem
+    	{Sep. 2018 - }
+		{Present}
+        {JavaScript Developer}
+        {\href{https://vuee.info/}{Vuee}}
+        {}
+        {
+       	\textbf{}Vuee is giving a pathway for creating SPAs quickly and easily, without having to install or configure development environment, module builder or task runner, work with command line or deal with repositories!
+        {\begin{itemize}
+         \vspace{2mm}
+		\end{itemize}}
+        }
+\end{twenty}
+
+\section{Projects}
+=> \textbf{Cross platform Download Manager:}
+The application helps the user to manage their downloading tasks.
+
+library used:- PyQt4 ,urllib ,py2exe(github.com/Bearbobs/Mr-downloader)
+
+=> \textbf{Backend of Blog with Database Management using GUI:}
+It is Backend for a blog which was deployed on the college intranet.
+
+Library used:- Django1.4.1,
+sqlite3 (github.com/Bearbobs/database-blog)
+
+=> \textbf{Autologin Script for Cyberoam(College internet access portal):}
+It is a login script coded on python and also has bash file which can be used natively on Linux.
+
+Library used : re,ssl,urllib.request(github.com/Bearbobs/autologin)
+
+=> \textbf{Add to Cart - React Component:}
+it is a primary react component for add to cart feature on React Framework
+
+Library Used: Reactjs,HTML,CSS(github.com/Bearbobs/addtocart-react)
+
+=> \textbf{Map Plot Directions :}
+for ploting of a pathway from one place to other.it uses google API to plot out direction.
+
+Library Used: HTML,CSS,JavaScript(https://jsfiddle.net/anuj0070/yupLs48x)
+ \vspace{2mm}
+
+\end{document} 
